@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* custom css */
+
+.relative{
+    position: relative;
+}
+.absulate{
+    position: absolute;
+}
+.bg-mback{
+   background: #F4F6FF;
+}
+.bg-menubar{
+background-color: #10375C;
+}
+
+/* custom css */
+.social a{
+    color: black;
+}
+
+.login{
+    p{
+        font-size: 16px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}
+.search{
+    border: none;
+}
+.submenu{
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid black;
+    background-color: #10375C;
+    visibility: hidden;
+}
+.submenu-2{
+    text-align: center;
+    width: 160px;
+    margin-left: -15px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid black;
+    background-color: #10375C;
+    visibility: hidden;
+}
+.menu-bar{
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+            padding: 20px;
+            color: white;
+        }
+        a:hover{
+            color: sandybrown;
+            font-weight: 700;
+            transition-duration: .1s;
+        }
+    }
+    .collection:hover{
+        .submenu{
+            visibility: visible;
+        }
+       
+    }
+    .page:hover{
+        .submenu-2{
+            visibility: visible;
+        }
+    }
+}
+.mobile-menu{
+    display: none;
+}
+.m-menu{
+    background-color: #10375C;
+    width: 100%;
+    text-align: center;
+    margin:1px;
+   
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  
+ .t-left{
+    visibility: hidden;
+    display: none;
+  }
+  .t-gap{
+    visibility: hidden;
+    display: none;
+  }
+  .social{
+    visibility: hidden;
+    display: none;
+  }
+  .search-box{
+    margin-top: 20px;
+}
+  .logo{
+    .img{
+        text-align: center;
+    }
+  }
+  .menu{
+    /* visibility:hidden; */
+    display: none;
+
+  }
+  .mobile-menu{
+    display: block;
+    text-align: end;
+    
+    font-size: 25px;
+    margin-top: -20px;
+  }
+ 
+  
+}
+/* @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  
+  } */

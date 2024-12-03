@@ -22,8 +22,17 @@ background-color: #10375C;
 .none{
     border: none;
 }
+.decoration{
+    text-decoration: none;
+}
 .w-90{
     width: 90%;
+}
+.text-grey{
+    color: grey;
+}
+.bg-grey{
+background-color: grey;
 }
 
 /* custom css */
@@ -155,11 +164,38 @@ background-color: #10375C;
     width: 80%;
   
 }
+.time-bg{
+    background: url('images/time-bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.time-description{
+    padding: 80px 65px;
+}
+.sponsor{
+    background-color: #303030;
+    
+}
+footer{
+    .social-icon{
+        a{
+            border-radius: 50%;
+            padding: 10px;
+        }
+        a:hover{
+            background-color: #E7AB36;
+            transition: 0.5s;
+        }
+    }
+    hr{
+        color: grey;
+    }
+}
 
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
   
  .t-left{
     visibility: hidden;
@@ -217,19 +253,24 @@ background-color: #10375C;
     margin: 0 auto;
 }
 .img-cont{
-    padding: 0;
-    
     flex-direction: column;
     gap: 10px;
     img{
       width: 90%;
     }
 }
-.b-card{
-    width: 18rem;
+.sponsor{
+    .container{
+        flex-direction: column;
+        gap: 4px;
+    }
+}
+.f-logo, .f-information, .f-account{
+    margin-bottom:30px;
 }
   
 }
+
 /* @media only screen and (min-width: 601px) and (max-width: 1024px) {
   
   } */

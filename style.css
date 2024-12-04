@@ -79,7 +79,7 @@ background-color: grey;
     width: 80%;
  }
 .all-dept{
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 20px;
     text-align: center;
     
@@ -195,7 +195,7 @@ footer{
 
 
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 767px) {
   
  .t-left{
     visibility: hidden;
@@ -208,6 +208,9 @@ footer{
   .social{
     visibility: hidden;
     display: none;
+  }
+  .tt-right{
+    margin-top: -55px;
   }
   .search-box{
     margin-top: 20px;
@@ -261,9 +264,12 @@ footer{
 }
 .sponsor{
     .container{
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 4px;
     }
+}
+.b-card{
+    width: 18rem;
 }
 .f-logo, .f-information, .f-account{
     margin-bottom:30px;
@@ -271,6 +277,24 @@ footer{
   
 }
 
-/* @media only screen and (min-width: 601px) and (max-width: 1024px) {
-  
+/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
+     .t-left{
+    visibility: hidden;
+    display: none;
+  }
+  .t-gap{
+    visibility: hidden;
+    display: none;
+  }
+  .social{
+    visibility: hidden;
+    display: none;
+  }
+.all-dept{
+    font-size: 15px;
+}
+.b-card{
+    width: 15rem;
+}
+
   } */

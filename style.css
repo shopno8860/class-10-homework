@@ -120,7 +120,7 @@ background-color: grey;
     margin-top: 15px;
     border: 1px solid black;
     background-color: #10375C;
-    z-index: 1;
+    z-index: 1000;
 }
 .menu-bar{
     li{
@@ -135,7 +135,6 @@ background-color: grey;
             transition-duration: .5s;
         }
     }
-   
 }
 .mobile-menu{
     display: none;

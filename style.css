@@ -110,7 +110,7 @@ background-color: grey;
     margin-top: 15px;
     border: 1px solid black;
     background-color: #10375C;
-    visibility: hidden;
+   z-index: 1;
 }
 .submenu-2{
     text-align: center;
@@ -120,7 +120,7 @@ background-color: grey;
     margin-top: 15px;
     border: 1px solid black;
     background-color: #10375C;
-    visibility: hidden;
+    z-index: 1;
 }
 .menu-bar{
     li{
@@ -135,19 +135,7 @@ background-color: grey;
             transition-duration: .5s;
         }
     }
-    .collection:hover{
-        .submenu{
-            visibility: visible;
-            z-index: 1000;
-        }
-       
-    }
-    .page:hover{
-        .submenu-2{
-            visibility: visible;
-            z-index: 1000;
-        }
-    }
+   
 }
 .mobile-menu{
     display: none;
